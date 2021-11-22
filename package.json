@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@headlessui/vue": "^1.4.2",
+        "@inertiajs/inertia": "^0.10.1",
+        "@inertiajs/inertia-vue3": "^0.5.2",
+        "@inertiajs/progress": "^0.2.6",
+        "@tailwindcss/forms": "^0.2.1",
+        "@tailwindcss/typography": "^0.3.0",
+        "@vitejs/plugin-vue": "^1.9.4",
+        "@vue/compiler-sfc": "^3.0.5",
+        "axios": "^0.21",
+        "dayjs": "^1.10.7",
+        "dotenv": "^10.0.0",
+        "dynamic-import-polyfill": "^0.1.1",
+        "laravel-echo": "^1.11.3",
+        "laravel-mix": "^6.0.6",
+        "laravel-vite": "^0.0.22",
+        "lodash": "^4.17.19",
+        "mitt": "^3.0.0",
+        "numeral": "^2.0.6",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.3.11",
+        "postcss-import": "^14.0.2",
+        "pusher-js": "^7.0.3",
+        "sass": "^1.43.4",
+        "sass-loader": "^12.3.0",
+        "tailwindcss": "^2.0.1",
+        "vite": "^2.6.14",
+        "vue": "^3.1",
+        "vue-flatpickr-component": "^9.0.5",
+        "vue-loader": "^16.1.2",
+        "vue-numerals": "^4.0.6",
+        "vue-select": "^4.0.0-beta.1",
+        "vue3-vt-notifications": "^1.0.1"
+    }
+}

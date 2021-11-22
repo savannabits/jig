@@ -1,0 +1,1 @@
+import{u as s,v as t,o as r,k as a,g as o,y as c}from"./vendor.07ccac9c.js";import{_ as n}from"./plugin-vue_export-helper.5a098b48.js";const i={props:["message"]},p={class:"text-sm text-red-600"};function _(m,l,e,d,u,v){return s((r(),a("div",null,[o("p",p,c(e.message),1)],512)),[[t,e.message]])}var x=n(i,[["render",_]]);export{x as J};
