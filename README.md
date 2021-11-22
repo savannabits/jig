@@ -1,4 +1,4 @@
-# (Laravel + Vite.js Tailwindcss + Vue3) + JIG CRUD Generator
+# (Laravel + Vite.js + Tailwindcss + Vue3) + JIG CRUD Generator
 ## Intro
 This is a starter template with a ready-made setup of [Jetstream Inertia Generator](https://github.com/coolsam726/jetstream-inertia-generator) to avoid the hassle of initial configuration.
 
