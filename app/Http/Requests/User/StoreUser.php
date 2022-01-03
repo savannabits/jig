@@ -34,7 +34,7 @@ class StoreUser extends FormRequest
             'email_verified_at' => ['nullable', 'date'],
             'current_team_id' => ['nullable', 'integer'],
                     
-            'assigned_roles' => ["required","array"],
+            'assigned_roles' => ["nullable","array"],
         ];
     }
     /**
