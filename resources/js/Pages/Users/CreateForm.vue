@@ -99,7 +99,9 @@
             InertiaButton,
             JetInputError,
             JetLabel,
-             JigDatepicker,             JetInput,                         JigTextarea,            
+            JigDatepicker,
+            JetInput,
+            JigTextarea,
         },
         data() {
             return {
@@ -111,8 +113,7 @@
                     two_factor_secret: null,
                     two_factor_recovery_codes: null,
                     email_verified_at: null,
-                    current_team_id: null,
-                                                            
+                    current_team_id: null,                                    
                 }, {remember: false}),
             }
         },
