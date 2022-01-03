@@ -27,14 +27,14 @@ class StoreUser extends FormRequest
         return [
             'name' => ['required', 'string'],
             'email' => ['required', 'email', Rule::unique('users', 'email'), 'string'],
-            'password' => ['required', 'confirmed', 'min:7', 'regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9]).*$/', 'string'],
+            'password' => ['required', 'confirmed', 'min:7', 'string'],
             'profile_photo_path' => ['nullable', 'string'],
             'two_factor_secret' => ['nullable', 'string'],
             'two_factor_recovery_codes' => ['nullable', 'string'],
             'email_verified_at' => ['nullable', 'date'],
             'current_team_id' => ['nullable', 'integer'],
                     
-            'assigned_roles' => ["required","array"],
+            'assigned_roles' => ["nullable","array"],
         ];
     }
     /**

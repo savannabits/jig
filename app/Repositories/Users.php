@@ -22,13 +22,11 @@ class Users
     {
         $model = new User((array) $data);
                 // Save Relationships
-                    
-
         if (isset($password) && $data->password) {
             $model->password = \Hash::make($data->password);
         }
         $model->saveOrFail();
-        $assignedRoles = collect($data->assigned_roles)->where("checked", true)->pluck('name');
+        // $assignedRoles = collect($data->assigned_roles)->where("checked", true)->pluck('name');
         return $model;
     }
 
