@@ -19,14 +19,14 @@
             
         <div class=" sm:col-span-4">
             <jet-label for="password" value="Password" />
-            <jet-input type="time" id="password" name="password" v-model="form.password"
+            <jet-input type="password" id="password" name="password" v-model="form.password"
                        :class="{'border-red-500 sm:focus:border-red-300 sm:focus:ring-red-100': form.errors.password}"
             ></jet-input>
             <jet-input-error :message="form.errors.password" class="mt-2" />
         </div>
         <div class=" sm:col-span-4">
             <jet-label for="password_confirmation" value="Repeat Password" />
-            <jet-input type="time" id="password_confirmation" name="password_confirmation" v-model="form.password_confirmation"
+            <jet-input type="password" id="password_confirmation" name="password_confirmation" v-model="form.password_confirmation"
                        :class="{'border-red-500 sm:focus:border-red-300 sm:focus:ring-red-100': form.errors.password_confirmation}"
             ></jet-input>
         </div>
@@ -109,6 +109,7 @@
                     name: null,
                     email: null,
                     password: null,
+                    password_confirmation: null,
                     profile_photo_path: null,
                     two_factor_secret: null,
                     two_factor_recovery_codes: null,
