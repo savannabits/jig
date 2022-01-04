@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import vSelect from "vue-select";
+import vSelect from "vue-select/src/index";
 import { defineComponent } from "vue";
 export default defineComponent({
     name: "InfiniteSelect",
