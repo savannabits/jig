@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import vSelect from "vue-select/src/index";
+import vSelect from "vue-select";
 import { defineComponent } from "vue";
 export default defineComponent({
     name: "JigSelect",
